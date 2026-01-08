@@ -558,7 +558,7 @@ function updateCartDisplay() {
   const cartTotal = document.getElementById('cart-total');
   
   if (cartItems) {
-    // Clear previous items
+   // Clear previous items
     cartItems.innerHTML = '';
     
     // Add each cart item
